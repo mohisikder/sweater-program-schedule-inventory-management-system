@@ -12,6 +12,6 @@ class BackendController extends Controller
 
     public function index(): View|Factory|Application
     {
-        return view('backend.modules.index');
+        return view('frontend.modules.index');
     }
 }
